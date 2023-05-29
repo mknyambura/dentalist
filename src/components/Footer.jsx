@@ -27,11 +27,11 @@ function Footer() {
 
         <div className='flex flex-col w-[20%] m-16'>
           <h1 className='uppercase text-slate-400 font-thin text-sm'>Quick Links</h1>
-          <h1 className='text-white hover:underline font-semibold'>About Us</h1>
-          <h1 className='text-white hover:underline font-semibold'>Dental Services</h1>
-          <h1 className='text-white hover:underline font-semibold'>Dentist</h1>
-          <h1 className='text-white hover:underline font-semibold'>Blog</h1>
-          <h1 className='text-white hover:underline font-semibold'>FAQs</h1>
+          <h1 className='text-white hover:underline hover:cursor-pointer font-semibold'>About Us</h1>
+          <h1 className='text-white hover:underline hover:cursor-pointer font-semibold'>Dental Services</h1>
+          <h1 className='text-white hover:underline hover:cursor-pointer font-semibold'>Dentist</h1>
+          <h1 className='text-white hover:underline hover:cursor-pointer font-semibold'>Blog</h1>
+          <h1 className='text-white hover:underline hover:cursor-pointer font-semibold'>FAQs</h1>
         </div>
 
         <div className='flex flex-col gap-4 w-[40%] justify-center'>
@@ -71,8 +71,8 @@ function Footer() {
       <div className='flex flex-row justify-between ml-24 mr-24'>
         <h1 className='mb-16 text-slate-300'>©Dentalist. All Rights Reserved</h1>
         <div className='mb-16 flex flex-row justify-between gap-8'>
-          <h1>Terms of Use</h1>
-          <h1>Privacy Policy</h1>
+          <h1 className='hover:underline hover:cursor-pointer'>Terms of Use</h1>
+          <h1 className='hover:underline hover:cursor-pointer'>Privacy Policy</h1>
         </div>
       </div>
     </div>
