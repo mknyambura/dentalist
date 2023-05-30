@@ -340,18 +340,6 @@ function Home() {
                         <input type="email" className='border border-slate-300 rounded-lg px-2 py-2' placeholder='Your email address...'/>
                     </div>
 
-                    {/* <div className='flex flex-col gap-4'>
-                        <label htmlFor="" className='uppercase'>Services</label>
-                        <Dropdown>
-                            <Dropdown.Menu>
-                                <Dropdown.Item>Teeth Whitening</Dropdown.Item>
-                                <Dropdown.Item>Root Canal</Dropdown.Item>
-                                <Dropdown.Item>Dentures</Dropdown.Item>
-                                <Dropdown.Item>Implants</Dropdown.Item>
-                            </Dropdown.Menu>
-                        </Dropdown>
-                    </div> */}
-
                     <div className='flex flex-col gap-4 mt-4'>
                         <label htmlFor="" className='uppercase text-slate-500'>Messages</label>
                         <textarea placeholder="Write your thoughts here..." className='h-[200px] p-3 text-sm w-full rounded-lg border border-slate-300 focus:ring-slate-300 focus:border-slate-300'></textarea>

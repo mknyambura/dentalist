@@ -14,7 +14,7 @@ function Header() {
             <div className='flex flex-row gap-8 font-semibold'>
                 <Link to='/about-us'>About Us</Link>
                 <h1>New Patient</h1>
-                <h1>Our Services</h1>
+                <Link to='/services'>Our Services</Link>
                 <Link to='/contact-us'>Contact Us</Link>
             </div>
             <button className='bg-[#583FBC] px-8 py-2 rounded-lg text-white'>Book appointment</button>
