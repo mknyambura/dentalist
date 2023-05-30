@@ -26,7 +26,7 @@ function Footer() {
         </div>
 
         <div className='flex flex-col w-[20%] m-16'>
-          <h1 className='uppercase text-slate-400 font-thin text-sm'>Quick Links</h1>
+          <h1 className='uppercase text-slate-400 font-thin text-sm mb-3'>Quick Links</h1>
           <h1 className='text-white hover:underline hover:cursor-pointer font-semibold'>About Us</h1>
           <h1 className='text-white hover:underline hover:cursor-pointer font-semibold'>Dental Services</h1>
           <h1 className='text-white hover:underline hover:cursor-pointer font-semibold'>Dentist</h1>
@@ -35,7 +35,7 @@ function Footer() {
         </div>
 
         <div className='flex flex-col gap-4 w-[40%] justify-center'>
-          <h1 className='text-slate-400 text-sm uppercase'>Contact & Information</h1>
+          <h1 className='text-slate-400 text-sm uppercase mb-3'>Contact & Information</h1>
           <div className='flex flex-col gap-4 justify-between'>
             <div className='flex flex-row  gap-4'>
               <button disabled="disabled" className='px-2 py-2 bg-[#583fbc3f] rounded-lg border border-slate-400'>
