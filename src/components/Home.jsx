@@ -306,7 +306,7 @@ function Home() {
                         <button className='text-slate-400 flex flex-col justify-between items-center absolute px-4 py-2 bg-white rounded-[15px] '><span className='text-black font-bold'>23</span>Jan</button>
                     </div>
                     <div>
-                        <h1 className='text-[#583FBC] uppercase font-bold mt-4 mb-4 ml-5 mr-4'>Technology</h1>
+                        <h1 className='text-[#583FBC] uppercase font-bold mt-4 mb-4 ml-5 mr-4'>Digital</h1>
                         <h1 className='font-bold ml-5 mb-4 mr-4'>New Technology Make for Digital Operation</h1>
                         <p className='text-slate-400 ml-5 mb-8 mr-4'>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing</p>
                     </div>
@@ -317,7 +317,7 @@ function Home() {
                         <button className='text-slate-400 flex flex-col justify-between items-center absolute px-4 py-2 bg-white rounded-[15px] '><span className='text-black font-bold'>23</span>Jan</button>
                     </div>
                     <div>
-                        <h1 className='text-[#583FBC] uppercase font-bold mt-4 mb-4 ml-5 mr-4'>Technology</h1>
+                        <h1 className='text-[#583FBC] uppercase font-bold mt-4 mb-4 ml-5 mr-4'>Hygiene</h1>
                         <h1 className='font-bold ml-5 mb-4 mr-4'>New Technology Make for Digital Operation</h1>
                         <p className='text-slate-400 ml-5 mb-8 mr-4'>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing</p>
                     </div>

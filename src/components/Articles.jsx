@@ -12,6 +12,7 @@ import blog4 from '../images/blog4.png'
 import blog5 from '../images/blog5.png'
 import blog6 from '../images/blog6.png'
 import { SlArrowLeft, SlArrowRight } from 'react-icons/sl'
+import { Link } from 'react-router-dom'
 
 function Articles() {
   return (
@@ -42,7 +43,7 @@ function Articles() {
                 <h1 className='font-bold text-5xl mb-16'>Stay updated with out latest news</h1>
             </div>
             <div className='grid grid-cols-3 justify-between gap-12 mt-16 ml-16 mr-16 items-center'>
-                <div className='relative flex flex-col border border-slate-200 rounded-[30px]'>
+                <Link to='/article' className='relative flex flex-col border border-slate-200 rounded-[30px] hover:shadow-2xl hover:shadowslate-'>
                     <img src={blog1} alt="" className='px-3 py-3 rounded-[20px]' />
                     <div className='absolute px-2 py-2 top-4 left-4'>
                         <button className='text-slate-400 flex flex-col justify-between items-center absolute px-4 py-2 bg-white rounded-[15px] '><span className='text-black font-bold'>23</span>Jan</button>
@@ -52,31 +53,31 @@ function Articles() {
                         <h1 className='font-bold ml-5 mb-4 mr-4'>New Technology Make for Digital Operation</h1>
                         <p className='text-slate-400 ml-5 mb-8 mr-4'>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing</p>
                     </div>
-                </div>
+                </Link>
 
-                <div className='relative flex flex-col border border-slate-200 rounded-[30px]'>
+                <Link to='/article' className='relative flex flex-col border border-slate-200 rounded-[30px] hover:shadow-2xl hover:shadowslate-'>
                     <img src={blog2} alt="" className='px-3 py-3 rounded-[20px]' />
                     <div className='absolute px-2 py-2 top-4 left-4'>
                         <button className='text-slate-400 flex flex-col justify-between items-center absolute px-4 py-2 bg-white rounded-[15px] '><span className='text-black font-bold'>23</span>Jan</button>
                     </div>
                     <div>
-                        <h1 className='text-[#583FBC] uppercase font-bold mt-4 mb-4 ml-5 mr-4'>Technology</h1>
+                        <h1 className='text-[#583FBC] uppercase font-bold mt-4 mb-4 ml-5 mr-4'>Digital</h1>
                         <h1 className='font-bold ml-5 mb-4 mr-4'>New Technology Make for Digital Operation</h1>
                         <p className='text-slate-400 ml-5 mb-8 mr-4'>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing</p>
                     </div>
-                </div>
-                <div className='relative flex flex-col border border-slate-200 rounded-[30px]'>
+                </Link>
+                <Link to='/article' className='relative flex flex-col border border-slate-200 rounded-[30px] hover:shadow-2xl hover:shadowslate-'>
                     <img src={blog3} alt="" className='px-3 py-3 rounded-[20px]' />
                     <div className='absolute px-2 py-2 top-4 left-4'>
                         <button className='text-slate-400 flex flex-col justify-between items-center absolute px-4 py-2 bg-white rounded-[15px] '><span className='text-black font-bold'>23</span>Jan</button>
                     </div>
                     <div>
-                        <h1 className='text-[#583FBC] uppercase font-bold mt-4 mb-4 ml-5 mr-4'>Technology</h1>
+                        <h1 className='text-[#583FBC] uppercase font-bold mt-4 mb-4 ml-5 mr-4'>Hygiene</h1>
                         <h1 className='font-bold ml-5 mb-4 mr-4'>New Technology Make for Digital Operation</h1>
                         <p className='text-slate-400 ml-5 mb-8 mr-4'>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing</p>
                     </div>
-                </div>
-                <div className='relative flex flex-col border border-slate-200 rounded-[30px]'>
+                </Link>
+                <Link to='/article' className='relative flex flex-col border border-slate-200 rounded-[30px] hover:shadow-2xl hover:shadowslate-'>
                     <img src={blog4} alt="" className='px-3 py-3 rounded-[30px]' />
                     <div className='absolute px-2 py-2 top-4 left-4'>
                         <button className='text-slate-400 flex flex-col justify-between items-center absolute px-4 py-2 bg-white rounded-[15px] '><span className='text-black font-bold'>23</span>Jan</button>
@@ -86,31 +87,31 @@ function Articles() {
                         <h1 className='font-bold ml-5 mb-4 mr-4'>New Technology Make for Digital Operation</h1>
                         <p className='text-slate-400 ml-5 mb-8 mr-4'>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing</p>
                     </div>
-                </div>
-                <div className='relative flex flex-col border border-slate-200 rounded-[30px]'>
+                </Link>
+                <Link to='/article' className='relative flex flex-col border border-slate-200 rounded-[30px] hover:shadow-2xl hover:shadowslate-'>
                     <img src={blog5} alt="" className='px-3 py-3 rounded-[30px]' />
                     <div className='absolute px-2 py-2 top-4 left-4'>
                         <button className='text-slate-400 flex flex-col justify-between items-center absolute px-4 py-2 bg-white rounded-[15px] '><span className='text-black font-bold'>23</span>Jan</button>
                     </div>
                     <div>
-                        <h1 className='text-[#583FBC] uppercase font-bold mt-4 mb-4 ml-5 mr-4'>Technology</h1>
+                        <h1 className='text-[#583FBC] uppercase font-bold mt-4 mb-4 ml-5 mr-4'>Digital</h1>
                         <h1 className='font-bold ml-5 mb-4 mr-4'>New Technology Make for Digital Operation</h1>
                         <p className='text-slate-400 ml-5 mb-8 mr-4'>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing</p>
                     </div>
-                </div>
-                <div className='relative flex flex-col border border-slate-200 rounded-[30px]'>
+                </Link>
+                <Link to='/article' className='relative flex flex-col border border-slate-200 rounded-[30px] hover:shadow-2xl hover:shadowslate-'>
                     <img src={blog6} alt="" className='px-3 py-3 rounded-[30px]' />
                     <div className='absolute px-2 py-2 top-4 left-4'>
                         <button className='text-slate-400 flex flex-col justify-between items-center absolute px-4 py-2 bg-white rounded-[15px] '><span className='text-black font-bold'>23</span>Jan</button>
                     </div>
                     <div>
-                        <h1 className='text-[#583FBC] uppercase font-bold mt-4 mb-4 ml-5 mr-4'>Technology</h1>
+                        <h1 className='text-[#583FBC] uppercase font-bold mt-4 mb-4 ml-5 mr-4'>Hygiene</h1>
                         <h1 className='font-bold ml-5 mb-4 mr-4'>New Technology Make for Digital Operation</h1>
                         <p className='text-slate-400 ml-5 mb-8 mr-4'>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing</p>
                     </div>
-                </div>
+                </Link>
             </div>
-            <div className='flex flex-row gap-8 items-center mt-8'>
+            <div className='flex flex-row gap-8 items-center mt-16 mb-16'>
                 <button className='px-4 py-2 rounded-[10px] border bg-[#583FBC] text-white'>1</button>
                 <button className='px-4 py-2 rounded-[10px] border hover:bg-[#583FBC] hover:text-white'>2</button>
                 <button className='px-4 py-2 rounded-[10px] border hover:bg-[#583FBC] hover:text-white'>3</button>
