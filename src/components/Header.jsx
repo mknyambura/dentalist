@@ -17,7 +17,7 @@ function Header() {
                 <Link to='/services'>Our Services</Link>
                 <Link to='/contact-us'>Contact Us</Link>
             </div>
-            <button className='bg-[#583FBC] px-8 py-2 rounded-lg text-white'>Book appointment</button>
+            <button className='bg-[#583FBC] px-8 py-2 rounded-lg text-white font-bold'>Book appointment</button>
         </div>
     </div>
   )

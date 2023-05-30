@@ -27,6 +27,7 @@ import blog1 from '../images/blog1.png'
 import blog2 from '../images/blog2.png'
 import blog3 from '../images/blog3.png'
 import googleMapReact from 'google-map-react';
+import { Link } from 'react-router-dom';
 
 
 function Home() {
@@ -70,7 +71,7 @@ function Home() {
                     <p className='font-thin text-xl w-[50%]'>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
                 </div>
                 <div className='flex flex-row justify-evenly gap-14'>
-                    <div className='flex flex-col items-center px-2 py-2 border border-slate-300 rounded-[20px] gap-6'>
+                    <div className='flex flex-col items-center px-2 py-2 border border-slate-300 rounded-[20px] gap-6 hover:shadow-2xl hover:shadow-slate-500 hover:animate-bounce'>
                         <div className='flex bg-[#DBEFFA] rounded-[20px] px-20 py-20 items-center justify-center'>
                             <button disabled='disabled' className='border border-[#FAFCFD] bg-[#E5F5FD] px-2 py-2 rounded-lg items-center justify-center'>
                                 <button disabled='disabled' className='bg-white px-4 py-4 items-center rounded-lg'>
@@ -82,7 +83,7 @@ function Home() {
                         <p className='text-center'>Lorem ipsum is a placeholder text commonly used in the graphic</p>
                     </div>
 
-                    <div className='flex flex-col items-center px-2 py-2 border border-slate-300 rounded-[20px] gap-6'>
+                    <div className='flex flex-col items-center px-2 py-2 border border-slate-300 rounded-[20px] gap-6 hover:shadow-2xl hover:shadow-slate-500 hover:animate-bounce'>
                         <div className='flex bg-[#DBDEFA] rounded-[20px] px-20 py-20 items-center justify-center'>
                             <button disabled='disabled' className='border border-[#FAFCFD] bg-transparent px-2 py-2 rounded-lg items-center justify-center'>
                                 <button disabled='disabled' className='bg-white px-4 py-4 items-center rounded-lg'>
@@ -94,7 +95,7 @@ function Home() {
                         <p className='text-center'>Lorem ipsum is a placeholder text commonly used in the graphic</p>
                     </div>
 
-                    <div className='flex flex-col items-center px-2 py-2 border border-slate-300 rounded-[20px] gap-6'>
+                    <div className='flex flex-col items-center px-2 py-2 border border-slate-300 rounded-[20px] gap-6 hover:shadow-2xl hover:shadow-slate-500 hover:animate-bounce'>
                         <div className='flex bg-[#F6DBFA] rounded-[20px] px-20 py-20 items-center justify-center'>
                             <button disabled='disabled' className='border border-[#FAFCFD] bg-transparent px-2 py-2 rounded-lg items-center justify-center'>
                                 <button disabled='disabled' className='bg-white px-4 py-4 items-center rounded-lg'>
@@ -106,7 +107,7 @@ function Home() {
                         <p className='text-center'>Lorem ipsum is a placeholder text commonly used in the graphic</p>
                     </div>
 
-                    <div className='flex flex-col items-center px-2 py-2 border border-slate-300 rounded-[20px] gap-6'>
+                    <div className='flex flex-col items-center px-2 py-2 border border-slate-300 rounded-[20px] gap-6 hover:shadow-2xl hover:shadow-slate-500 hover:animate-bounce'>
                         <div className='flex bg-[#FADBE2] rounded-[20px] px-20 py-20 items-center justify-center'>
                             <button disabled='disabled' className='border border-[#FAFCFD] bg-transparent px-2 py-2 rounded-lg items-center justify-center'>
                                 <button disabled='disabled' className='bg-white px-4 py-4 items-center rounded-lg'>
@@ -281,12 +282,12 @@ function Home() {
             </div>
         </div>
 
-        <div className='m-16'>
-            <div className='flex flex-col items-center gap-8'>
+        <div className='flex flex-col m-16 items-center justify-center'>
+            <div className='flex flex-col items-center gap-8 mt-16'>
                 <h1 className='text-[#583FBC] font-bold uppercase'>Blog</h1>
                 <h1 className='font-bold text-5xl mb-16'>Stay updated with out latest news</h1>
             </div>
-            <div className='flex flex-row justify-between gap-12 m-16 items-center'>
+            <div className='flex flex-row justify-between gap-12 mt-16 ml-16 mr-16 items-center'>
                 <div className='relative flex flex-col border border-slate-200 rounded-[30px]'>
                     <img src={blog1} alt="" className='px-3 py-3' />
                     <div className='absolute px-2 py-2 top-4 left-4'>
@@ -322,6 +323,10 @@ function Home() {
                     </div>
                 </div>
             </div>
+            <Link to='/articles' className='text-[#583FBC] bg-[#583fbc1f] hover:bg-[#583FBC] hover:text-white rounded-lg font-bold flex flex-row justify-between px-8 py-4 w-[20%] items-center mt-24'>
+                View more articles
+                <AiFillRightCircle/>
+            </Link>
         </div>
 
         <div className='flex items-center'>
