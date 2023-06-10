@@ -27,10 +27,13 @@ function Header() {
 
 
         <div className='lg:flex mg:flex-row justify-between items-center py-12'>
-        <div className='font-bold text-3xl sm:px-16'>
-          <img src={logo} alt="" />
-          <Link to='/' className='font-bold text-xl'>Dentalist</Link>
-        </div>
+        
+        <Link to='/'>
+          <div className='flex flex-row  items-center gap-2 font-bold text-3xl sm:px-16'>
+            <img src={logo} alt="" />
+            <h1 to='/' className='font-bold text-xl hover:cursor-pointer'>Dentalist</h1>
+          </div>
+        </Link>
         <div className='absolute right-8 top-[5%] lg:hidden' onClick={handleclick}>
           {
             open ?  <FaBars className='text-[#583FBC] text-3xl'/> : <FaTimes className='text-[#583FBC] text-3xl'/>
@@ -48,7 +51,9 @@ function Header() {
             <a href="/contact-us">Contact Us</a>
           </li>
           <div className='flex flex-row gap-4 '>
-            <button className='bg-[#583FBC] px-8 py-2 rounded-lg text-white font-bold'>Book appointment</button>
+            <a href="#book-appointment">
+              <button className='bg-[#583FBC] px-8 py-2 rounded-lg text-white font-bold'>Book appointment</button>
+            </a>
           </div>
         </ul>
       </div>

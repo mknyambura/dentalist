@@ -19,7 +19,7 @@ function ContactUs() {
           </iframe>
         </div>
       </div> */}
-      <div className='flex flex-col relative items-center bg-[#DBEFFA] rounded-[30px] m-16 h-[70vh]'>
+      <div className='flex flex-col relative items-center bg-[#DBEFFA] rounded-[30px] m-16 sm:h-[50vh] lg:h-[70vh]'>
         <h1 className='items-center font-bold text-6xl mt-16'>Contact Us</h1>
         
         <form action="" className='items-center absolute bg-white top-[40%] rounded-[20px] shadow-xl shadow-slate-300'>

@@ -12,6 +12,7 @@ import video from '../images/videochair.png'
 import dianne from '../images/dianne.png'
 import darrell from '../images/darrell.png'
 import jenny from '../images/jenny.png'
+import { Link } from 'react-router-dom'
 
 function AboutUs() {
   return (
@@ -21,7 +22,9 @@ function AboutUs() {
             <div className='flex flex-col lg:w-[40%] justify-center text-start gap-14'>
                 <h1 className='font-bold text-6xl'>About Us</h1>
                 <p className='text-slate-400'>We want you to feel amazing about your oral wellness. Not just twice a year, but every time you take a bite, tell a joke, laugh, or share a kiss.</p>
-                <button className='items-center justify-center w-[34%] bg-[#583FBC] text-white px-10 py-3 rounded-lg font-bold'>Contact Us</button>
+                <Link to='/contact-us'>
+                    <button className='items-center justify-center w-[34%] bg-[#583FBC] text-white px-10 py-3 rounded-lg font-bold'>Contact Us</button>
+                </Link>
             </div>
             <div className='relative lg:w-1/2  items-center'>
                 <img src={image1} alt="" />
