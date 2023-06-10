@@ -39,17 +39,17 @@ function Home() {
   return (
     <div>
         <Header/>
-        <div className='flex flex-row bg-[#7ABADD] m-16 rounded-[50px] px-16 py-16'>
+        <div className='flex sm:flex-col md:flex-col lg:flex-row bg-[#7ABADD] m-16 rounded-[50px] px-16 py-16'>
             <div className='flex flex-col gap-8 w-[50%] '>
-                <h1 className='font-bold text-6xl'>Entrust your smile to professionals</h1>
+                <h1 className='font-bold sm:text-5xl md:text-5xl lg:text-6xl'>Entrust your smile to professionals</h1>
                 <p className='text-slate-300 font-thin'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel cum fugiat quam veritatis minima delectus tempora saepe? Ex vitae, consequatur dolorem tempore, sapiente cumque, dicta eligendi quibusdam autem debitis eum.</p>
-                <div className='flex flex-row items-center justify-between'>
+                <div className='flex sm:flex-col md:flex-col lg:flex-row items-center justify-between'>
                     <button className='bg-[#583FBC] px-4 py-2 rounded-lg text-white'>Book an appointment</button>
-                    <div className='flex flex-row gap-4 justify-center'>
-                        <button className='px-3 py-2 bg-white rounded-lg gap-3 items-center'>
-                            <MdPhoneInTalk className='text-[#583FBC]'/>
+                    <div className='flex sm:flex-col md:flex-col lg:flex-row gap-4 items-center justify-center'>
+                        <button className='sm:w-1/4 px-3 py-2 bg-white rounded-lg gap-3 items-center'>
+                            <MdPhoneInTalk className='text-[#583FBC] items-center justify-center'/>
                         </button>
-                        <button className='flex flex-col'>
+                        <button className='flex flex-col items-center'>
                             <h1 className='uppercase text-[#583FBC]'>Dental 24H Emergency</h1>
                             <h1>03482394123</h1>
                         </button>
@@ -61,16 +61,16 @@ function Home() {
 
         <div className='flex flex-col items-center justify-center gap-8'>
             <div className='flex flex-col w-[65%] gap-8 items-center m-16'>
-                <p className='font-semibold text-5xl text-center'>Dentalist is re-imagining what the dental experience can be and proudly setting a new standard for patient care.</p>
+                <p className='font-semibold sm:text-4xl md:text-4xl lg:text-5xl text-center'>Dentalist is re-imagining what the dental experience can be and proudly setting a new standard for patient care.</p>
                 <div className='bg-[#583FBC] h-[2px] w-1/4 items-center justify-center'></div>
             </div>
             <div className='flex flex-col m-16 items-center'>
                 <h1 className='mb-8 uppercase text-[#583FBC] font-bold'>Services</h1>
-                <div className='flex flex-row justify-between mb-16 mt-2'>
-                    <h1 className='font-bold text-5xl text-start w-[30%]'>Feel amazing about your oral health</h1>
-                    <p className='font-thin text-xl w-[50%]'>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                <div className='sm:items-center md:items-center flex sm:flex-col md:flex-col lg:flex-row justify-between mb-16 mt-2'>
+                    <h1 className=' font-bold sm:text-4xl lg:text-5xl text-start lg:w-[30%]'>Feel amazing about your oral health</h1>
+                    <p className='font-thin sm:text-s lg:text-xl w-[50%]'>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
                 </div>
-                <div className='flex flex-row justify-evenly gap-14'>
+                <div className='flex flex-row sm:flex-wrap md:flex-wrap justify-evenly gap-14'>
                     <div className='flex flex-col items-center px-2 py-2 border border-slate-300 rounded-[20px] gap-6 hover:shadow-2xl hover:shadow-slate-500 hover:animate-bounce'>
                         <div className='flex bg-[#DBEFFA] rounded-[20px] px-20 py-20 items-center justify-center'>
                             <button disabled='disabled' className='border border-[#FAFCFD] bg-[#E5F5FD] px-2 py-2 rounded-lg items-center justify-center'>
@@ -119,23 +119,23 @@ function Home() {
                         <p className='text-center'>Lorem ipsum is a placeholder text commonly used in the graphic</p>
                     </div>
                 </div>
-                <button className='text-[#583FBC] bg-[#583fbc1f] hover:bg-[#583FBC] hover:text-white rounded-lg font-bold flex flex-row justify-between px-8 py-4 w-[20%] items-center mt-24'>
+                <button className='text-[#583FBC] bg-[#583fbc1f] hover:bg-[#583FBC] hover:text-white rounded-lg font-bold flex flex-row justify-between px-8 py-4 lg:w-[20%] items-center mt-24 gap-4'>
                     View all service list
                     <AiFillRightCircle/>
                 </button>
             </div>
         </div>
 
-        <div className='flex flex-row m-16 items-center justify-between'>
+        <div className='flex flex-col lg:flex-row m-16 items-center justify-between'>
             <div className='flex flex-col relative w-3/4 mb-24'>
-                <div className=' bg-[#DBEFFA] h-[500px] w-[58%] rounded-[30px]'>
+                <div className=' bg-[#DBEFFA] sm:h-[400px] md:h-[420px] lg:h-[500px] w-[58%] rounded-[30px]'>
 
                 </div>
                 <div className='absolute top-[12%] right-[25%]'>
                     <img src={patient} alt=""/>
                 </div>
             </div>
-            <div className='flex flex-col gap-8 text-start w-1/2 mb-24'>
+            <div className='flex flex-col gap-8 text-start lg:w-1/2 mb-24'>
                 <h1 className='uppercase text-[#583FBC] font-bold'>Dental 24H Emergency</h1>
                 <h1 className='font-bold text-5xl'>Gentle, friendly treatment from our local practice</h1>
                 <p className='font-thin'>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
@@ -149,8 +149,7 @@ function Home() {
                 <h1 className='font-bold text-5xl'>Specialized care through experience</h1>
                 <p className='font-thin'>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
             </div>
-            <div className='grid grid-cols-2 m-28 justify-evenly gap-12 items-center'>
-                
+            <div className='grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 m-28 justify-evenly gap-12 items-center'> 
                 <div className='flex flex-row  gap-4'>
                     <button disabled='disabled' className='border border-[#FAFCFD] bg-transparent px-2 py-2 rounded-lg items-center justify-center'>
                         <button disabled='disabled' className='bg-white px-4 py-4 items-center rounded-lg'>
@@ -201,8 +200,8 @@ function Home() {
             </div>
         </div>
 
-        <div className='flex flex-row m-16 items-center justify-between gap-12'>
-            <div className='flex flex-col gap-8 text-start w-1/2'>
+        <div className='flex sm:flex-col md:flex-col lg:flex-row m-16 items-center justify-between gap-12'>
+            <div className='flex flex-col gap-8 text-start lg:w-1/2'>
                 <h1 className='uppercase text-[#583FBC] font-bold'>Experts in Dental</h1>
                 <h1 className='font-bold text-5xl'>Top-notch dentistry, from Seattle's top dentists</h1>
                 <p className='font-thin'>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
@@ -213,7 +212,7 @@ function Home() {
                 </div>
             </div>
             <div className='flex flex-row items-center justify-center relative w-1/2'>
-                <div className=' flex bg-[#FADBE2] h-[500px] w-[78%] rounded-[30px]'></div>
+                <div className=' flex bg-[#FADBE2] sm:h-[350px] md:h-[400px] h-[500px] w-[78%] rounded-[30px]'></div>
                 <div className='absolute top-[12%] right-[25%]'>
                     <img src={patient1} alt=""/>
                 </div>
@@ -223,12 +222,12 @@ function Home() {
         <div className='flex  flex-col bg-[#D9EBFA] m-16 rounded-[20px]'>
             <div className='flex flex-col m-16'>
                 <h1 className='text-[#583FBC] font-bold uppercase mt-8'>Testimonial</h1>
-                <div className='flex flex-row justify-between items-center mt-8 mb-8'>
+                <div className='flex sm:flex-col md:flex-col lg:flex-row justify-between items-center sm:gap-4 md:gap-4 mt-8 mb-8'>
                     <h1 className='font-bold text-5xl'>What people have said about us</h1>
-                    <p className='font-thin text-xl'>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts</p>
+                    <p className='font-thin sm:text-s lg:text-xl'>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts</p>
                 </div>
             </div>
-            <div className='flex flex-row justify-between gap-12 m-16'>
+            <div className='flex sm:flex-col lg:flex-row justify-between gap-12 m-16'>
                 <div className='bg-white rounded-[20px] flex flex-col relative items-center gap-8'>
                     <button disabled="disabled" className='absolute items-center top-[-60px] border bg-[#D9EBFA] rounded-full px-2 py-2 justify-center'>
                         <img src={robert} alt="" />
@@ -285,9 +284,9 @@ function Home() {
         <div className='flex flex-col m-16 items-center justify-center'>
             <div className='flex flex-col items-center gap-8 mt-16'>
                 <h1 className='text-[#583FBC] font-bold uppercase'>Blog</h1>
-                <h1 className='font-bold text-5xl mb-16'>Stay updated with out latest news</h1>
+                <h1 className='font-bold text-5xl mb-16'>Stay updated with our latest news</h1>
             </div>
-            <div className='flex flex-row justify-between gap-12 mt-16 ml-16 mr-16 items-center'>
+            <div className='flex sm:flex-col lg:flex-row justify-between gap-12 mt-16 ml-16 mr-16 items-center'>
                 <div className='relative flex flex-col border border-slate-200 rounded-[30px]'>
                     <img src={blog1} alt="" className='px-3 py-3' />
                     <div className='absolute px-2 py-2 top-4 left-4'>
@@ -323,13 +322,13 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <Link to='/articles' className='text-[#583FBC] bg-[#583fbc1f] hover:bg-[#583FBC] hover:text-white rounded-lg font-bold flex flex-row justify-between px-8 py-4 w-[20%] items-center mt-24'>
+            <Link to='/articles' className='text-[#583FBC] bg-[#583fbc1f] hover:bg-[#583FBC] hover:text-white rounded-lg font-bold flex flex-row justify-between px-8 py-4 gap-5 lg:w-[20%] items-center mt-24'>
                 View more articles
                 <AiFillRightCircle/>
             </Link>
         </div>
 
-        <div className='flex items-center'>
+        <div className='flex items-center px-12 py-12'>
             <div className='flex flex-col gap-8 m-16'>
                 <h1 className='text-[#583FBC] font-bold uppercase'>Book Appointment</h1>
                 <h1 className='font-bold text-5xl'>Care at Dentalist is pleasure</h1>
