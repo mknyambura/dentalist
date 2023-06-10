@@ -20,14 +20,14 @@ function Services() {
   return (
     <div>
         <Header/>
-        <div className='bg-[#DBEFFA] flex flex-row items-center justify-between m-16 rounded-[20px]'>
+        <div className='bg-[#DBEFFA] flex sm:flex-col lg:flex-row items-center justify-between m-16 rounded-[20px]'>
             <div className='flex flex-col w-[40%] m-16 gap-8'>
                 <h1 className='font-bold text-6xl'>Root canals</h1>
                 <p className='font-thin text-slate-500'>Root canals have gotten a bad reputation, but us dentists don’t know why! These are the types of treatments that actually make you feel better!</p>
                 <button className='w-[55%] rounded-lg font-bold text-white px-4 py-2 bg-[#583FBC]'>Book an appointment</button>
             </div>
-            <div className='bg-transaparent h-[400px]'></div>
-            <div className='flex items-center absolute w-1/2  rounded-lg right-0 top-[40%]'>
+            <div className='sm:hidden md:hidden bg-transaparent h-[400px]'></div>
+            <div className='sm:hidden md:hidden lg:flex items-center absolute w-1/2  rounded-lg right-0 top-[40%]'>
                 <img src={image} alt="" className='rounded-lg' width={400}/>
             </div>
         </div>
@@ -35,11 +35,10 @@ function Services() {
         <div className='bg-[#FADBE2] flex flex-col mt-[250px] m-16 rounded-[20px]'>
             <div className='flex flex-col gap-14 ml-24 mr-24 mt-24 items-center justify-center'>
                 <h1 className='text-[#583FBC] uppercase font-bold text-center'>Symptoms</h1>
-                <h1 className='font-bold text-6xl text-center'>Signs and symptoms that you ned a root canal</h1>
+                <h1 className='font-bold sm:text-4xl md:text-4xl lg:text-6xl text-center'>Signs and symptoms that you ned a root canal</h1>
                 <p className='font-thin'>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
             </div>
-            <div className='grid grid-cols-2  gap-8 m-20 items-center'>
-                
+            <div className='grid sm:grid-cols-1 lg:grid-cols-2  gap-8 m-20 items-center'>
                 <div className='flex flex-row items-center gap-8'>
                     <div className='bg-transparent rounded-lg px-2 py-2 border border-white'>
                         <div className='bg-white px-2 py-2 rounded-lg items-center justify-center'>
@@ -104,8 +103,8 @@ function Services() {
 
         <div className='flex flex-col gap-8 m-16 '>
             <h1 className='mt-24 uppercase text-[#583FBC] font-bold'>Gallery</h1>
-            <div className='flex flex-row justify-between gap-8 mb-8'>
-                <h1 className='font-bold text-6xl'>Some proof about our services for you</h1>
+            <div className='flex sm:flex-col md:flex-col lg:flex-row justify-between gap-8 mb-8'>
+                <h1 className='font-bold sm:text-4xl md:text-4xl lg:text-6xl'>Some proof about our services for you</h1>
                 <p className='font-thin'>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
             </div>
             <div className='flex flex-row flex-wrap justify-center gap-12'>
@@ -118,10 +117,10 @@ function Services() {
             </div>
         </div>
 
-        <div className='flex items-center'>
+        <div className='flex items-center px-12 py-12'>
             <div className='flex flex-col gap-8 m-16'>
                 <h1 className='text-[#583FBC] font-bold uppercase'>Book Appointment</h1>
-                <h1 className='font-bold text-5xl'>Care at Dentalist is pleasure</h1>
+                <h1 className='font-bold sm:text-4xl md:text-4xl lg:text-5xl'>Care at Dentalist is pleasure</h1>
                 <p className='font-thin'>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing</p>
                 <form action="" className='items-center'>
                     <div className='flex flex-col gap-4 mt-4'>

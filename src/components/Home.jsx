@@ -40,7 +40,7 @@ function Home() {
     <div>
         <Header/>
         <div className='flex sm:flex-col md:flex-col lg:flex-row bg-[#7ABADD] m-16 rounded-[50px] px-16 py-16'>
-            <div className='flex flex-col gap-8 w-[50%] '>
+            <div className='flex flex-col gap-8 lg:w-[50%] '>
                 <h1 className='font-bold sm:text-5xl md:text-5xl lg:text-6xl'>Entrust your smile to professionals</h1>
                 <p className='text-slate-300 font-thin'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel cum fugiat quam veritatis minima delectus tempora saepe? Ex vitae, consequatur dolorem tempore, sapiente cumque, dicta eligendi quibusdam autem debitis eum.</p>
                 <div className='flex sm:flex-col md:flex-col lg:flex-row items-center justify-between'>
